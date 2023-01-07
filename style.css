@@ -1,0 +1,230 @@
+
+/* Start of common css */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    font-size: 16px;
+}
+
+header{
+    background-image: url('images/banner/banner1.png');
+    width: 100%;
+    height: 800px;
+
+}
+.banner_content_width{
+    width: 1140px;
+    margin: 0 auto;
+    
+
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    text-align: right;
+    position: relative;
+}
+.header_content{
+    position: absolute;
+    left: 60%;
+}
+.header_content h1{
+    font-size: 65px;
+    font-weight: 700px;
+    color: #151414;
+    margin-bottom: 40px;
+}
+.header_content p{
+    margin-bottom: 35px;
+    color: #444343;
+}
+.header_content a{
+    display: inline-block;
+    color: #ffff;
+    background-color: #F15B22;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+/* MY opinion section css */
+.my_opinion_section{
+    padding: 100px 0px;
+}
+.content_width{
+    width: 1020px;
+    margin: 0 auto;
+}
+.my_opinion_section{
+    display: flex;
+    align-items: center;
+}
+.my_opinion_description{
+    margin-left: 90px;
+}
+.my_opinion_description h2{
+    color: #151414;
+    font-size: 40px;
+}
+.my_opinion_description p{
+    color: #444343;
+    margin-bottom: 20px;
+}
+.my_opinion_description ul li{
+    list-style: none;
+    color: #444343;
+    line-height: 25px;
+}
+.my_opinion_description ul li i{
+    color: #16D887;
+    margin-right: 5px;
+    
+}
+/* start of plans css */
+
+.my_plan_section {
+    text-align: center;
+    padding-bottom: 110px;
+}
+.my_plan_section h2{
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+.plans{
+    display: flex;
+    gap: 45px;
+    text-align: center;
+}
+
+.single_plan img{
+    width: 90px;
+    height: 90px;
+    margin-bottom: 15px;
+}
+.single_plan h3{
+    font-size: 30px;
+    color: #151414;
+    margin-bottom: 15px;
+}
+.single_plan p{
+    font-size: 25px;
+    color: #737272
+}
+
+/* start cantact_section_css */
+.contact_area{
+    background-image: url("images/watch.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 300px;
+    margin-bottom: 100px;
+}
+.contact_section h3{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+.contact_section a{
+    background-color: #fff;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 7px;
+    margin-top: 25px;
+}
+.contact_section{
+    background-image: url("images/gradient2.png");
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.contact{
+    position: absolute;
+    left: 40px;
+    top: 28%;
+}
+
+
+/* Start Footer area css */
+.footer_area{
+    background-color: #151414;
+    color: #fff;
+    padding: 100px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.left_footer_content{
+    width: 42%;
+}
+.footer h3{
+    font-size: 45px;
+    color: #F8F8F8;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.right_footer_content h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.footer p{
+    margin-bottom: 25px;
+}
+.social_icon ul li{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 10px;
+}
+.social_icon ul li a{
+    font-size: 20px;
+}
+.social_icon ul li a.facebook{
+    color: #006AFF;
+}
+.social_icon ul li a.twitter{
+    color: #1DA1F2;
+}
+.social_icon ul li a.youtube{
+    color: #FF0000;
+}
+
+.right_footer_content form input{
+    border: none;
+}
+.right_footer_content form input[type="email"]{
+    width: 86%;
+    padding: 20px;
+    border: none;
+    background-color:#151414;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin-bottom: 22px;
+    font-size: 18px;
+
+}
+.right_footer_content form input[type="submit"]{
+    padding: 20px;
+    background-color: #fff;
+    color: #F15B22;
+    font-size: 20px;
+    border-radius: 20px;
+}
